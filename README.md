@@ -1,6 +1,6 @@
 # Hello Golang
 
-Este projeto marca o inicio dos meus estudos na linguagem Golang.
+Este projeto marca o início dos meus estudos na linguagem Golang.
 
 Este é o meu primeiro projeto em Go, criado para praticar os conceitos básicos da linguagem e executar meu primeiro programa no terminal.
 
