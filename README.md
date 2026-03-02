@@ -2,7 +2,7 @@
 
 Este projeto marca o inicio dos meus estudos na linguagem Golang.
 
-Este e o meu primeiro projeto em Go, criado para praticar os conceitos basicos da linguagem e executar meu primeiro programa no terminal.
+Este é o meu primeiro projeto em Go, criado para praticar os conceitos básicos da linguagem e executar meu primeiro programa no terminal.
 
 ## Objetivo
 
@@ -16,4 +16,4 @@ Este e o meu primeiro projeto em Go, criado para praticar os conceitos basicos d
 go run hello.go
 ```
 
-Meu portfolio: [https://josemanoeldev.vercel.app](https://josemanoeldev.vercel.app)
+Meu portfólio: [https://josemanoeldev.vercel.app](https://josemanoeldev.vercel.app)
