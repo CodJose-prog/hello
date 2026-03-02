@@ -42,6 +42,23 @@ fmt.Println("Ola, sr.", nome, "sua idade e", idade, "anos.")
 fmt.Println("Este programa esta na versao", versao)
 ```
 
+### v1.2 - Diferenca entre `fmt.Scanf` e `fmt.Scan`
+- Estudo de leitura de dados no terminal com `fmt`.
+- `fmt.Scan` le valores separados por espaco e quebra de linha, sem mascara de formato.
+- `fmt.Scanf` le usando uma mascara (exemplo: `%d`, `%s`, `%f`), exigindo formato mais controlado.
+- No codigo atual, o comando do menu foi lido com `fmt.Scan`.
+
+Trecho de codigo da versao:
+
+```go
+var comando int
+fmt.Scan(&comando)
+fmt.Println("O comando escolhido foi", comando)
+
+var idade int
+fmt.Scanf("%d", &idade)
+```
+
 ## Regra de atualizacao do README
 
 A cada nova modificacao do codigo, este README deve ser atualizado com:
