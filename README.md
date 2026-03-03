@@ -78,6 +78,26 @@ if comando == 1 {
 }
 ```
 
+### v1.4 - Controle de fluxo com `switch`
+- Refatoracao da logica condicional de `if/else if/else` para `switch`.
+- Codigo mais organizado para tratar multiplas opcoes de menu.
+- Uso do `default` para lidar com comandos invalidos.
+
+Trecho de codigo da versao:
+
+```go
+switch comando {
+case 1:
+	fmt.Println("Monitoramento iniciado...")
+case 2:
+	fmt.Println("Exibindo Logs...")
+case 0:
+	fmt.Println("Saindo do programa...")
+default:
+	fmt.Println("Comando desconhecido")
+}
+```
+
 ## Regra de atualizacao do README
 
 A cada nova modificacao do codigo, este README deve ser atualizado com:
