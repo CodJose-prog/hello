@@ -16,4 +16,14 @@ func main() {
 	fmt.Scan(&comando)
 
 	fmt.Println("O comando escolhido foi", comando)
+
+	if comando == 1 {
+		fmt.Println("Monitoramento iniciado...")
+	} else if comando == 2 {
+		fmt.Println("Exibindo Logs...")
+	} else if comando == 0 {
+		fmt.Println("Saindo do programa...")
+	} else {
+		fmt.Println("Comando desconhecido")
+	}
 }

@@ -59,6 +59,25 @@ var idade int
 fmt.Scanf("%d", &idade)
 ```
 
+### v1.3 - Controle de fluxo com `if`
+- Implementacao de decisao no programa com `if`, `else if` e `else`.
+- Tratamento de comandos digitados no menu (`1`, `2`, `0` e opcao invalida).
+- Pratica de logica condicional para controlar o comportamento da aplicacao.
+
+Trecho de codigo da versao:
+
+```go
+if comando == 1 {
+	fmt.Println("Monitoramento iniciado...")
+} else if comando == 2 {
+	fmt.Println("Exibindo Logs...")
+} else if comando == 0 {
+	fmt.Println("Saindo do programa...")
+} else {
+	fmt.Println("Comando desconhecido")
+}
+```
+
 ## Regra de atualizacao do README
 
 A cada nova modificacao do codigo, este README deve ser atualizado com:
